@@ -88,7 +88,7 @@ const ManageUsers = () => {
   const handelSearch =(e)=>{
 
     e.preventDefault ();
-    const filtredUsers=users.filter{(u)=> 
+    const filtredUsers=users.filter{(u) => 
       u.name.tolowercase().includes(Search.tolowercase())
     };
 
